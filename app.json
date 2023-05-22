@@ -1,6 +1,20 @@
 {
   "expo": {
     "name": "appRastreio",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Permite que $(PRODUCT_NAME) use sua localização"
+        }
+      ]
+    ],
     "slug": "appRastreio",
     "version": "1.0.0",
     "orientation": "portrait",
